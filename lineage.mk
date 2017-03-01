@@ -14,16 +14,16 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/sumire/full_sumire.mk)
+$(call inherit-product, device/sony/suzuran/full_suzuran.mk)
 
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_sumire
+PRODUCT_NAME := lineage_suzuran
 
 # Use the latest approved GMS identifiers
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=sumire \
-    BUILD_FINGERPRINT=Sony/sumire/sumire:7.0/KITAKAMI-2.2.0-170123-1244/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="sumire-user 7.0 KITAKAMI-2.2.0-170123-1244 1 dev-keys"
+    PRODUCT_NAME=suzuran \
+    BUILD_FINGERPRINT=Sony/suzuran/suzuran:7.1.1/KITAKAMI-2.1.2-SEC-161031-1748/1:user/dev-keys \
+    PRIVATE_BUILD_DESC="suzuran-user 7.1.1 KITAKAMI-2.1.2-SEC-161031-1748 1 dev-keys"
