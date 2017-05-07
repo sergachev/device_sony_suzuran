@@ -15,4 +15,3 @@
 #
 
 add_lunch_combo lineage_suzuran-userdebug
-add_lunch_combo lineage_suzuran-eng
