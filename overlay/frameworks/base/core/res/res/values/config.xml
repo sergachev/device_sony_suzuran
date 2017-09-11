@@ -1,27 +1,3 @@
-<integer-array name="config_autoBrightnessLevels">
-...
-<integer-array name="config_autoBrightnessLcdBacklightValues">
-...
-
-<integer name="config_screenBrightnessSettingMinimum">
-+
-<integer name="config_screenBrightnessSettingMaximum">
-+
-<integer name="config_screenBrightnessSettingDefault">
-
-...
-
-
-<integer name="config_screenBrightnessDoze">
-
-<integer name="config_screenBrightnessDim">
-
-...
-
-<integer name="config_screenBrightnessDark">
-
-
-
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2016 The CyanogenMod Project
